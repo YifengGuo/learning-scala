@@ -1,4 +1,4 @@
-package com.yifeng.scala.generics.type_.variable
+package com.yifeng.scala.generics.parameterized.types
 
 /**
  * Created by guoyifeng on 8/14/20
