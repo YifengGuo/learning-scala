@@ -5,8 +5,6 @@ package com.yifeng.scala.oop.high.order.types
   *
   *
   * this.type
-  * 3. 结构类型(structural types)
-  * 4. 复合类型(compound types)
   */
 
 /*************************************** this.type ***********************************/
