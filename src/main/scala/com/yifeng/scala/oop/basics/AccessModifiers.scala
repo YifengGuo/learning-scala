@@ -1,4 +1,4 @@
-package com.yifeng.scala.oop
+package com.yifeng.scala.oop.basics
 
 /**
   * @author guoyifeng on 2020-07-24
@@ -27,7 +27,8 @@ object AccessModifiers {
 
   // 3. hide classes
   // 通过HashMap=> _，这样类便被隐藏起来了
-  import java.util.{HashMap => _, _}
+  import java.util.{HashMap => _}
+
   import scala.collection.mutable.HashMap
   object RenameUsage {
     def main(args: Array[String]): Unit = {

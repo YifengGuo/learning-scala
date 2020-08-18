@@ -1,4 +1,4 @@
-package com.yifeng.scala.oop
+package com.yifeng.scala.oop.basics
 
 import scala.beans.BeanProperty
 

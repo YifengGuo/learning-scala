@@ -1,4 +1,4 @@
-package com.yifeng.scala.oop
+package com.yifeng.scala.oop.basics
 
 /**
   * @author guoyifeng on 2020-07-24
