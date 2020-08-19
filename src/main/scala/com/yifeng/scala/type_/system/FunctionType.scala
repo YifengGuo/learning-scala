@@ -1,8 +1,15 @@
 package com.yifeng.scala.type_.system
 
 /**
-  * @author guoyifeng on 2020-08-18
-  */
+ * @author guoyifeng on 2020-08-18
+ *         https://stackoverflow.com/questions/9737352/what-is-the-apply-function-in-scala
+ *         in scala
+ *         function can be mathematical way: val f = (x: Int) => x + 1
+ *         function can also be Object Oriented way: val f = new Function1[Int, Int] {
+ *                                                      def apply(x: Int): Int = ???
+ *                                                    }
+ *         then use function like f(0), in mathematical way, it is called apply f on argument 0
+ */
 object FunctionType {
 
   val max = (x: Int, y: Int) => if (x < y) y else x
