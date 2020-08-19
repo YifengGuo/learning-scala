@@ -1,4 +1,4 @@
-package com.yifeng.scala.`type`.system
+package com.yifeng.scala.type_.system
 
 /**
   * @author guoyifeng on 2020-08-18

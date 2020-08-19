@@ -1,4 +1,4 @@
-package com.yifeng.scala.`type`.system
+package com.yifeng.scala.type_.system
 
 import scala.reflect.runtime.universe.typeOf
 
