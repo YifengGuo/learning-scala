@@ -1,4 +1,4 @@
-package com.yifeng.scala.oop.high.order.types
+package com.yifeng.scala.`type`.system
 
 import scala.reflect.runtime.universe.typeOf
 

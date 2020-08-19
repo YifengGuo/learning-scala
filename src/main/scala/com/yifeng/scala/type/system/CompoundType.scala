@@ -1,4 +1,4 @@
-package com.yifeng.scala.oop.high.order.types
+package com.yifeng.scala.`type`.system
 
 /**
   * @author guoyifeng on 2020-08-18
