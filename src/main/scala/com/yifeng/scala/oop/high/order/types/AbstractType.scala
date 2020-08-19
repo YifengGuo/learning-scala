@@ -29,3 +29,44 @@ object AbstractType {
     println(new Student().getIdentityNo())
   }
 }
+
+object AbstractTypeByGenerics {
+
+  abstract class Person[T] {
+    def getIdentityNo(): T
+  }
+
+  class Student extends Person[String] {
+    override def getIdentityNo(): String = "123"
+  }
+
+  class Teacher extends Person[Int] {
+    override def getIdentityNo(): Int = 123
+  }
+
+  def main(args: Array[String]): Unit = {
+    println(new Student().getIdentityNo())
+  }
+}
+
+// 如果类型是在子类型中才被确定，则推荐使用抽象类型。
+// use case for abstract type in practical situation
+trait Closable {
+  type in
+  type out
+
+  def close(x: in): out
+}
+
+class File extends Closable {
+  type in = String
+  type out = Boolean
+
+  override def close(x: String): Boolean = {
+    /**
+      * close file io
+      */
+
+    true
+  }
+}
